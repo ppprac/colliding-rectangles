@@ -14,5 +14,7 @@ function setup()
 function draw() 
 {
   background(0,0,255);  
+  movingrect.velocityX = World.mouseX;
+  movingrect.velocityY = World.mouseY;
   drawSprites();
 }
